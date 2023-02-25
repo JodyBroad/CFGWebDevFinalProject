@@ -350,7 +350,40 @@ ul {
 }
 
 /* Media queries */
-@media screen and (min-width: 384px){
+@media screen and (min-width: 250px){
+    .logo {
+        font-size: .85rem;
+     }
+
+    .list {
+        font-size: .85rem;
+    }
+
+    body {
+        font-size: .75rem;
+    }
+        
+    .article-data{
+        font-size: 1rem;
+    }
+
+    .article-title{
+        font-size: 1.25rem;
+    }
+
+    .btn-calc {
+        width: 40rem;
+        height: 10rem;
+        font-size: 3rem;
+    }
+
+    .calculator-container {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 768px){
     .logo {
         font-size: 1rem;
      }
@@ -369,6 +402,13 @@ ul {
         font-size: 3rem;
     }
 
+    .article-data{
+        font-size: 1rem;
+    }
+
+    .article-title{
+        font-size: 1.25rem;
+    }
     .calculator-container {
         flex-direction: column;
     }
